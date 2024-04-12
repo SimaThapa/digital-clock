@@ -40,18 +40,12 @@ h1{
 .box .content{
     font-size: 4vw;
     font-weight: 500;
+    padding: 20px;
 }
-.content::after{
-    content: '';
-    height: 3px;
-    width: 0;
-    background: red;
-    bottom: -6px;
-    left: 0;
+.box:hover{
+    background-color: rgb(232, 242, 242);
 }
-.content:hover::after{
-    width: 100%;
-}
+
 .box .counter{
     font-size: 8vw;
 
